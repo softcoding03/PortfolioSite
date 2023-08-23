@@ -93,14 +93,6 @@
           <div class="text-two">상상하는 개발자 김양수입니다.</div>
           <div class="text-three">Web Developer</div>
         </div>
-		  <br><br><br>
-        <div class="button">
-          <button>
-          <a href="#about">
-          	About Me
-          </a>
-          </button>
-        </div>
       </div>
     </section>
 
@@ -119,9 +111,6 @@
               제가 가진 아이디어를 직접 개발해보고자하는 욕구를 가지게 되었고<br>
               현재는 웹 개발자가 되기 위하여 열심히 배우고 익히며 정진하고 있습니다.
             </p>
-            <div class="button">
-              <button>Download CV</button>
-            </div>
           </div>
         </div>
       </div>

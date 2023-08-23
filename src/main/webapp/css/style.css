@@ -65,7 +65,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 24px;
   font-weight: 500;
-  color: #0E2431;
+  color: #AAC4FF;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -140,7 +140,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 50px;
   margin: 5px 0;
-  color: #279EFF;
+  color: #AAC4FF;
 }
 .home .text-four{
   font-size: 23px;
@@ -156,7 +156,7 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 30px;
   font-weight: 400;
-  background: #279EFF;
+  background: #D2DAFF;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
@@ -172,7 +172,7 @@ nav.sticky .menu-btn{
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
-  padding-top: 40px;
+  padding-top: 24px;
 }
 section .content{
   width: 80%;
@@ -190,8 +190,8 @@ section .title{
   margin-bottom: 40px;
 }
 section .title span{
-  color: #0E2431;
-  font-size: 30px;
+  color: #B1B2FF;
+  font-size: 50px;
   font-weight: 600;
   position: relative;
   padding-bottom: 8px;
@@ -202,7 +202,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #D2DAFF;
   left: 0;
   bottom: 0;
 }
@@ -259,8 +259,12 @@ section .button button:hover{
  .skills{
    background: #F0F8FF;
  }
+ .skills .boxes .box:hover{
+  background: #AAC4FF;
+  color: #fff;
+}
  .skills .content{
-   padding: 40px 0;
+   padding: 15px 0;
  }
  .skills .skills-details{
    display: flex;
@@ -335,7 +339,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #AAC4FF;
   color: #fff;
 }
 .services .boxes .box .icon{
