@@ -93,7 +93,7 @@
     <section class="home" id="home">
       <div class="home-content">
         <div class="text">
-          <div class="text-one">안녕하세요 저는,</div>
+          <div class="text-one">안녕하세요 저는, hi</div>
           <div class="text-two">상상하는 개발자 김양수입니다.</div>
           <div class="text-three">Web Developer</div>
         </div>
