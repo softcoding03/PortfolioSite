@@ -11,6 +11,7 @@
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     
     <script type="text/javascript">
 	 // Sticky Navigation Menu JS Code
@@ -78,11 +79,6 @@
             <i class="fas fa-times"></i>
           </div>
         </ul>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
       </div>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
@@ -93,7 +89,7 @@
     <section class="home" id="home">
       <div class="home-content">
         <div class="text">
-          <div class="text-one">안녕하세요 저는, hi</div>
+          <div class="text-one">안녕하세요 저는,</div>
           <div class="text-two">상상하는 개발자 김양수입니다.</div>
           <div class="text-three">Web Developer</div>
         </div>
@@ -114,12 +110,14 @@
         <div class="title"><span>About Me</span></div>
         <div class="about-details">
           <div class="left">
-            <img src="images/profile_square.png" alt="" />
+            <img src="images/myprofile.jpg" alt="" />
           </div>
           <div class="right">
-            <div class="topic">미래에 다양한 웹 서비스를 구현하는 저를 상상합니다.</div>
+            <div class="topic">상상한 것을 현실로 구현해내는 웹 개발자가 되고싶습니다.</div>
             <p>
-              대학교 시절 참가한 비즈니스모델 경진대회에서 소셜네트워크 서비스를 기획하여 우수상을 수상한 경험이 있습니다. 제가 상상한 서비스를 기획하는 단계에 
+              비즈니스모델 경진대회에 참가하거나 ~~ 하였을 때 항상 제 아이디어를 가지고 기획하는 단계에서 끝나는 것이 아쉬웠습니다.<br>
+              제가 가진 아이디어를 직접 개발해보고자하는 욕구를 가지게 되었고<br>
+              현재는 웹 개발자가 되기 위하여 열심히 배우고 익히며 정진하고 있습니다.
             </p>
             <div class="button">
               <button>Download CV</button>
@@ -137,9 +135,13 @@
         <div class="skills-details">
           <div class="text">
             <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
+            <p>
+            	개인 미니프로젝트 '쇼핑몰', '포트폴리오사이트'와 팀프로젝트 '야구 서비스 통합사이트'를 구현하며 익힌 기술들입니다. <br>
+            	Spring, JavaScript, MVC모델 등의 기술과 표준을 기반으로 개발하였습니다. <br>
+            	많은 기술을 적용시키진 못했지만, 새로운 기술의 갈증을 항상 가지고 끊임 없이 배우고자 하는 자세로 성장하겠습니다. 
+            </p>
             <div class="experience">
-              <div class="num">10</div>
+              <div class="num">안녕</div>
               <div class="exp">
                 Years Of <br />
                 Experience
@@ -148,20 +150,40 @@
           </div>
           <div class="boxes">
             <div class="box">
-              <div class="topic">HTML</div>
-              <div class="per">90%</div>
+              <div class="topic">familiar</div>
+              <div><img src="images/java.png" height=200></div>
             </div>
             <div class="box">
-              <div class="topic">CSS</div>
-              <div class="per">80%</div>
+              <div class="topic">familiar</div>
+              <div><img src="images/spring.png" height=200></div>
             </div>
             <div class="box">
-              <div class="topic">JavScript</div>
-              <div class="per">70%</div>
+              <div class="topic">familiar</div>
+              <div><img src="images/JavaScript.png" height=200></div>
+            </div>
+				<div class="box">
+              <div class="topic">familiar</div>
+              <div><img src="images/css.png" height=200></div>
             </div>
             <div class="box">
-              <div class="topic">PHP</div>
-              <div class="per">60%</div>
+              <div class="topic">familiar</div>
+              <div><img src="images/html.png" height=200></div>
+            </div>
+            <div class="box">
+              <div class="topic">familiar</div>
+              <div><img src="images/mysql.png" height=200></div>
+            </div>
+            <div class="box">
+              <div class="topic" style="color:black">tried</div>
+              <div><img src="images/oracle.png" height=200></div>
+            </div>
+            <div class="box">
+              <div class="topic" style="color:black">tried</div>
+              <div><img src="images/git.png" height=200></div>
+            </div>
+            <div class="box">
+              <div class="topic" style="color:black">tried</div>
+              <div><img src="images/docker.png" height=200></div>
             </div>
           </div>
         </div>
@@ -174,46 +196,29 @@
         <div class="title"><span>My Services</span></div>
         <div class="boxes">
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-desktop"></i>
-            </div>
-            <div class="topic">Web Devlopment</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic">YaguRoute</div>
+            <p>
+            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
+            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
+            </p>
           </div>
+        </div>
+        <div class="boxes">  
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-paint-brush"></i>
-            </div>
-            <div class="topic">Graphic Design</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic">굿즈 쇼핑몰</div>
+            <p>
+            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
+            	회원가입, 상품 조회 및 결제 등이 가능합니다.
+            </p>
           </div>
+        </div>  
+        <div class="boxes">  
           <div class="box">
-            <div class="icon">
-              <i class="fas fa-chart-line"></i>
-            </div>
-            <div class="topic">Digital Marketing</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fab fa-android"></i>
-            </div>
-            <div class="topic">Icon Design</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-camera-retro"></i>
-            </div>
-            <div class="topic">Photography</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-          </div>
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-tablet-alt"></i>
-            </div>
-            <div class="topic">Apps Devlopment</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+            <div class="topic">포트폴리오 사이트</div>
+            <p>
+            	현재 보고 계시는 제 포트폴리오 사이트입니다.<br>
+            	정적인 사이트지만, 클라우드 서버의 구축과 배포를 익힐 수 있었습니다. 
+            </p>
           </div>
         </div>
       </div>
@@ -224,21 +229,19 @@
       <div class="content">
         <div class="title"><span>Contact Me</span></div>
         <div class="text">
-          <div class="topic">Have Any Project?</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
-          <div class="button">
-            <button>Let's Chat</button>
-          </div>
+     		 <i class="fi fi-rr-circle-envelope" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
+     		 <span style="font-size:30px">didtn1233@gmail.com</span>
+     		 	<br>
+     		 <i class="fi fi-rr-circle-phone" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
+     		 <span style="font-size:30px">010-9783-3446</span>
+          	<br>
+          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" height=90></a>
+          	<br>
+          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" height=50></a>
         </div>
       </div>
     </section>
 
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="text">
-        <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
-      </div>
-    </footer>
 
     <script src="script.js"></script>
   </body>
