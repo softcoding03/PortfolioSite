@@ -68,38 +68,17 @@
     <!-- navgaition menu -->
     <nav>
       <div class="navbar">
-        <div class="logo"><a href="#">YangSoo's Portfolio</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
+        <div class="logo"><a href="/main.jsp">YangSoo's Portfolio</a></div>
       </div>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
       </div>
     </nav>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">안녕하세요 저는,</div>
-          <div class="text-two">상상하는 개발자 김양수입니다.</div>
-          <div class="text-three">Web Developer</div>
-        </div>
-      </div>
-    </section>
-
     <!-- About Section Start -->
     <section class="about" id="about">
       <div class="content">
-        <div class="title"><span>About Me</span></div>
+        <div class="title"><span>Overview</span></div>
         <div class="about-details">
           <div class="left">
             <img src="images/myprofile.jpg" alt="" />
@@ -120,7 +99,7 @@
     <!-- Section Tag and Other Div will same where we need to put same CSS -->
     <section class="skills" id="skills">
       <div class="content">
-        <div class="title"><span>My Skills</span></div>
+        <div class="title"><span>Insight</span></div>
         <div class="skills-details">
           <div class="text">
             <div class="topic">Skills Reflects Our Knowledge</div>
@@ -185,26 +164,20 @@
         <div class="title"><span>My Services</span></div>
         <div class="boxes">
           <div class="box">
-	          <a href="services/yaguroute.jsp">
-	            <div class="topic">YaguRoute</div>
-	            <img alt="" src="images/yaguroute1.png">
-	            <p>
-	            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
-	            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
-	            </p>
-	          </a>
+            <div class="topic">YaguRoute</div>
+            <p>
+            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
+            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
+            </p>
           </div>
         </div>
         <div class="boxes">  
           <div class="box">
-	          <a href="services/shop.jsp">
-	            <div class="topic">굿즈 쇼핑몰</div>
-	            <img alt="" src="images/shop1.png">
-	            <p>
-	            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
-	            	회원가입, 상품 조회 및 결제 등이 가능합니다.
-	            </p>
-	          </a>  
+            <div class="topic">굿즈 쇼핑몰</div>
+            <p>
+            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
+            	회원가입, 상품 조회 및 결제 등이 가능합니다.
+            </p>
           </div>
         </div>  
         <div class="boxes">  
@@ -229,10 +202,10 @@
      		 	<br>
      		 <i class="fi fi-rr-circle-phone" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
      		 <span style="font-size:30px">010-9783-3446</span>
-          	<br><br>
-          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" style="max-height:40px"></a>
-          	<br><br>
-          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" style="max-height:40px"></a>
+          	<br>
+          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" height=90></a>
+          	<br>
+          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" height=50></a>
         </div>
       </div>
     </section>

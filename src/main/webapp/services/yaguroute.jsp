@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	 <!-- bootstrap -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
     <script type="text/javascript">
 	 // Sticky Navigation Menu JS Code
 	    let nav = document.querySelector("nav");
@@ -68,59 +73,132 @@
     <!-- navgaition menu -->
     <nav>
       <div class="navbar">
-        <div class="logo"><a href="#">YangSoo's Portfolio</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-        </ul>
+        <div class="logo"><a href="/main.jsp">YangSoo's Portfolio</a></div>
       </div>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
       </div>
     </nav>
-
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">안녕하세요 저는,</div>
-          <div class="text-two">상상하는 개발자 김양수입니다.</div>
-          <div class="text-three">Web Developer</div>
-        </div>
-      </div>
-    </section>
-
+    <br><br><br>
+    
+	 <section class="about" id="about">
+	 	<div class="content">
+	 		<div class="title"><span>"다양한 야구 관련 서비스를 한 곳에서 즐기다."</span></div>
+	 	</div>
+	 </section>	     
+	 
     <!-- About Section Start -->
     <section class="about" id="about">
       <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="images/myprofile.jpg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">상상한 것을 현실로 구현해내는 웹 개발자가 되고싶습니다.</div>
-            <p>
-              비즈니스모델 경진대회에 참가하거나 ~~ 하였을 때 항상 제 아이디어를 가지고 기획하는 단계에서 끝나는 것이 아쉬웠습니다.<br>
-              제가 가진 아이디어를 직접 개발해보고자하는 욕구를 가지게 되었고<br>
-              현재는 웹 개발자가 되기 위하여 열심히 배우고 익히며 정진하고 있습니다.
-            </p>
-          </div>
-        </div>
-      </div>
+        <div class="title"><span>Overview</span></div>
+            <section class="services" id="services">
+			      <div class="content">
+			        <div class="boxes">
+			          <div class="box">
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								  <!-- Indicators -->
+								  <ol class="carousel-indicators">
+								    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+								    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+								  </ol>
+								  <!-- Wrapper for slides -->
+								  <div class="carousel-inner" role="listbox">
+								    <div class="item active">
+								      <img src="/images/yaguroute1.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute2.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute3.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute4.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute5.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute6.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute7.png" alt="">
+								    </div>
+								    <div class="item">
+								      <img src="/images/yaguroute8.png" alt="">
+								    </div>
+								  </div>
+								  <!-- Controls -->
+								  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								  </a>
+								  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+								    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    <span class="sr-only">Next</span>
+								  </a>
+								</div>          
+			          </div>
+			        </div>
+			      </div>
+			    </section>
+				<section class="services" id="services">
+					<div class="content">
+						<div class="boxes">
+							<div class="box">
+	
+								<div class="container content">
+									<div class="item">
+										<i class="fi fi-bs-check"></i> 개발기간
+									</div>
+									<div class="item">
+										<p>2023.04 ~ 2023.06</p>
+									</div>
+								</div>
+								<div class="container content">
+									<div class="item">
+										<i class="fi fi-bs-check"></i> 개발인원
+									</div>
+									<div class="item">
+										<p>5명</p>
+									</div>
+								</div>
+								<div class="container content">
+									<div class="item">
+										<i class="fi fi-bs-check"></i> 개발환경
+									</div>
+									<div class="item">
+										<p>
+											Front-End<br> • HTML5, CSS, JavaScript, BootStrap3, jQuery, Ajax<br> Back-End<br> • Java(JDK 1.8), Apache Tomcat 9.0, MyBatis, MySQL<br> Cloud<br> • Naver Cloud - Server, VPC, Cloud DB for MySQL, CDN+, GDNS<br> Framework, API<br> • Spring, Spring Boot, PortOne, Naver SENS, Naver Optimizer, Object Storage, SummerNote<br> 형상관리: Git, Notion<br>
+										</p>
+									</div>
+								</div>
+								<div class="container content">
+									<div class="item">
+										<i class="fi fi-bs-check"></i> 담당기능
+									</div>
+									<div class="item">
+										<p>2023.04 ~ 2023.06</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+		</div>
     </section>
 
     <!-- My Skill Section Start -->
     <!-- Section Tag and Other Div will same where we need to put same CSS -->
     <section class="skills" id="skills">
       <div class="content">
-        <div class="title"><span>My Skills</span></div>
+        <div class="title"><span>Insight</span></div>
         <div class="skills-details">
           <div class="text">
             <div class="topic">Skills Reflects Our Knowledge</div>
@@ -185,26 +263,20 @@
         <div class="title"><span>My Services</span></div>
         <div class="boxes">
           <div class="box">
-	          <a href="services/yaguroute.jsp">
-	            <div class="topic">YaguRoute</div>
-	            <img alt="" src="images/yaguroute1.png">
-	            <p>
-	            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
-	            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
-	            </p>
-	          </a>
+            <div class="topic">YaguRoute</div>
+            <p>
+            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
+            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
+            </p>
           </div>
         </div>
         <div class="boxes">  
           <div class="box">
-	          <a href="services/shop.jsp">
-	            <div class="topic">굿즈 쇼핑몰</div>
-	            <img alt="" src="images/shop1.png">
-	            <p>
-	            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
-	            	회원가입, 상품 조회 및 결제 등이 가능합니다.
-	            </p>
-	          </a>  
+            <div class="topic">굿즈 쇼핑몰</div>
+            <p>
+            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
+            	회원가입, 상품 조회 및 결제 등이 가능합니다.
+            </p>
           </div>
         </div>  
         <div class="boxes">  
@@ -229,10 +301,10 @@
      		 	<br>
      		 <i class="fi fi-rr-circle-phone" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
      		 <span style="font-size:30px">010-9783-3446</span>
-          	<br><br>
-          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" style="max-height:40px"></a>
-          	<br><br>
-          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" style="max-height:40px"></a>
+          	<br>
+          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" height=90></a>
+          	<br>
+          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" height=50></a>
         </div>
       </div>
     </section>

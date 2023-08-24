@@ -25,6 +25,9 @@
     background: #4070f4;
 }
 
+div .container .content{
+	display:flex;
+}
 /* navbar styling */
 nav{
   position: fixed;
@@ -224,6 +227,10 @@ section .title span::after{
 .about-details .right{
   width: 55%;
 }
+.right .container{
+	display:flex;
+	flex-wrap: wrap;
+}
 section  .topic{
   color: #0E2431;
   font-size: 25px;
@@ -304,6 +311,10 @@ section .button button:hover{
   width: calc(100% / 2 - 20px);
   margin: 20px 0;
 }
+img{
+  max-width:100%; 
+  height:auto;
+}
 .skills-details .boxes .topic{
   font-size: 20px;
   color: #4070f4;
@@ -328,12 +339,13 @@ section .button button:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .services .boxes .box{
   margin: 20px 0;
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 2 - 20px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px;
+  padding: 30px 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
