@@ -8,16 +8,18 @@
     <meta charset="UTF-8" />
     <title>Kim YangSoo's Portfolio</title>
     <link rel="stylesheet" href="/css/style.css" />
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-	 <!-- bootstrap -->
-	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+	  <!-- Fontawesome CDN Link -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	  <!-- Flaticon Links -->
+	  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+	  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+	  <!-- Bootstrap CSS -->
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <!-- Bootstrap JavaScript -->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript">
 	 // Sticky Navigation Menu JS Code
 	    let nav = document.querySelector("nav");
@@ -82,15 +84,13 @@
     <br><br><br>
     
 	 <section class="about" id="about">
-	 	<div class="content">
-	 		<div class="title"><span>"다양한 야구 관련 서비스를 한 곳에서 즐기다."</span></div>
-	 	</div>
-	 </section>	     
-	 
+		<div class="content">
+			<div class="title"><span>"프로야구 관련 서비스를 한데서 즐길 수 있는 플랫폼사이트"</span></div>
+		</div>
+	 </section>
+
     <!-- About Section Start -->
-    <section class="about" id="about">
       <div class="content">
-        <div class="title"><span>Overview</span></div>
             <section class="services" id="services">
 			      <div class="content">
 			        <div class="boxes">
@@ -154,37 +154,45 @@
 							<div class="box">
 	
 								<div class="container content">
-									<div class="item">
+									<div class="item" style="font-size: 17px;">
 										<i class="fi fi-bs-check"></i> 개발기간
 									</div>
-									<div class="item">
+                                    <div class="item" style="font-size: 20px;">
 										<p>2023.04 ~ 2023.06</p>
 									</div>
 								</div>
 								<div class="container content">
-									<div class="item">
+                                    <div class="item" style="font-size: 17px;">
 										<i class="fi fi-bs-check"></i> 개발인원
 									</div>
-									<div class="item">
+                                    <div class="item" style="font-size: 20px;">
 										<p>5명</p>
 									</div>
 								</div>
-								<div class="container content">
-									<div class="item">
+                                <div class="container content">
+                                    <div class="item" style="font-size: 17px;">
+                                        <i class="fi fi-bs-check"></i> 담당기능
+                                    </div>
+                                    <div class="item" style="font-size: 15px;">
+                                        <p>
+                                            • 커뮤니티 게시판 관리<br>
+                                            • 경기티켓 판매, 구매 관리<br>
+                                            • Git 브랜치 전략 수립 및 형상관리<br>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="container content">
+                                    <div class="item" style="font-size: 17px;">
 										<i class="fi fi-bs-check"></i> 개발환경
 									</div>
 									<div class="item">
 										<p>
-											Front-End<br> • HTML5, CSS, JavaScript, BootStrap3, jQuery, Ajax<br> Back-End<br> • Java(JDK 1.8), Apache Tomcat 9.0, MyBatis, MySQL<br> Cloud<br> • Naver Cloud - Server, VPC, Cloud DB for MySQL, CDN+, GDNS<br> Framework, API<br> • Spring, Spring Boot, PortOne, Naver SENS, Naver Optimizer, Object Storage, SummerNote<br> 형상관리: Git, Notion<br>
+											<strong>Front-End</strong><br>• HTML5, CSS, JavaScript, BootStrap3, jQuery, Ajax<br><br>
+                                            <strong>Back-End</strong><br> • Java(JDK 1.8), Apache Tomcat 9.0, MyBatis, MySQL<br><br>
+                                            <strong>Cloud</strong><br> • Naver Cloud - Server, VPC, Cloud DB for MySQL, CDN+<br><br>
+                                            <strong>Framework, API</strong><br> • Spring Boot, PortOne, Naver SENS, Optimizer, Object Storage, SummerNote<br><br>
+                                            <strong>형상관리</strong><br>Git, Notion<br>
 										</p>
-									</div>
-								</div>
-								<div class="container content">
-									<div class="item">
-										<i class="fi fi-bs-check"></i> 담당기능
-									</div>
-									<div class="item">
-										<p>2023.04 ~ 2023.06</p>
 									</div>
 								</div>
 							</div>
@@ -192,123 +200,31 @@
 					</div>
 				</section>
 		</div>
-    </section>
 
     <!-- My Skill Section Start -->
-    <!-- Section Tag and Other Div will same where we need to put same CSS -->
     <section class="skills" id="skills">
       <div class="content">
         <div class="title"><span>Insight</span></div>
-        <div class="skills-details">
-          <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>
-            	개인 미니프로젝트 '쇼핑몰', '포트폴리오사이트'와 팀프로젝트 '야구 서비스 통합사이트'를 구현하며 익힌 기술들입니다. <br>
-            	Spring, JavaScript, MVC모델 등의 기술과 표준을 기반으로 개발하였습니다. <br>
-            	많은 기술을 적용시키진 못했지만, 새로운 기술의 갈증을 항상 가지고 끊임 없이 배우고자 하는 자세로 성장하겠습니다. 
-            </p>
-            <div class="experience">
-              <div class="num">안녕</div>
-              <div class="exp">
-                Years Of <br />
-                Experience
-              </div>
-            </div>
-          </div>
-          <div class="boxes">
-            <div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/java.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/spring.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/JavaScript.png" height=200></div>
-            </div>
-				<div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/css.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/html.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic">familiar</div>
-              <div><img src="images/mysql.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic" style="color:black">tried</div>
-              <div><img src="images/oracle.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic" style="color:black">tried</div>
-              <div><img src="images/git.png" height=200></div>
-            </div>
-            <div class="box">
-              <div class="topic" style="color:black">tried</div>
-              <div><img src="images/docker.png" height=200></div>
-            </div>
-          </div>
+        <div class="skills-details" style="display: flex; justify-content: center">
+          <div class="text" style="text-align: center">
+            <div class="topic" style="margin-top: 20px; margin-bottom: 20px; font-size: 30px; color: coral">문자 발송 API 사용 과정중에 CORS 문제 발생</div>
+            <p style="text-align: center; font-size: 13px;">
+				<i class="fi fi-bs-check"></i><strong>이슈</strong> : 동일한 서버 출처의 리소스가 아닌 외부사이트 URL로 리소스를 요청하는 것은 Same Origin 정책에 위반<br>
+				<i class="fi fi-bs-check"></i><strong>해결 방법</strong> : CORS는 브라우저 정책으로, 서버간 통신을 할 때에는 적용되지 않는 정책임. 따라서 해당 코드를 화면단에서 처리하지 않고 Rest서버에 작성하여 데이터를 요청함<br>
+            </p><br>
+			  <div class="topic" style="margin-top: 20px; margin-bottom: 20px; font-size: 30px; color: coral">팀 프로젝트를 통해 유연한 소스 코드의 필요성 인식</div>
+			  <p style="text-align: center; font-size: 13px;">
+				  <i class="fi fi-bs-check"></i><strong>이슈</strong> : 하나의 서비스임에도 설계표준이 명확하지 않거나, 서로 다른 코드 컨벤션을 사용하는 경우 협업이나 코드 유지보수가 힘들다.<br>
+				  <i class="fi fi-bs-check"></i><strong>해결 방법</strong> : 동료가 이해하기 어려운 변수명이나 함수명을 사용하는 것을 지양하고, 협업툴을 이용하여 개발표준을 명확히 작성해둔다.<br>
+			  </p><br>
+			  <div class="topic" style="margin-top: 20px; margin-bottom: 20px; font-size: 30px; color: coral">형상관리의 중요성 인식</div>
+			  <p style="text-align: center; font-size: 13px;">
+				  <i class="fi fi-bs-check"></i>팀 단위로 함께 개발을 진행하게 되면 주기적인 버전 통합이 중요하다.<br>
+				  <i class="fi fi-bs-check"></i>주기적인 형상관리를 통해 버전 충돌을 막고, 소스코드의 복구가 필요할 때 무리없이 해결할 수 잇다.<br>
+			  </p><br>
         </div>
       </div>
     </section>
-
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-      <div class="content">
-        <div class="title"><span>My Services</span></div>
-        <div class="boxes">
-          <div class="box">
-            <div class="topic">YaguRoute</div>
-            <p>
-            	팀 프로젝트이며, 야구와 관련된 다양한 서비스를 한 곳에서 제공하는 사이트입니다.<br>
-            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
-            </p>
-          </div>
-        </div>
-        <div class="boxes">  
-          <div class="box">
-            <div class="topic">굿즈 쇼핑몰</div>
-            <p>
-            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
-            	회원가입, 상품 조회 및 결제 등이 가능합니다.
-            </p>
-          </div>
-        </div>  
-        <div class="boxes">  
-          <div class="box">
-            <div class="topic">포트폴리오 사이트</div>
-            <p>
-            	현재 보고 계시는 제 포트폴리오 사이트입니다.<br>
-            	정적인 사이트지만, 클라우드 서버의 구축과 배포를 익힐 수 있었습니다. 
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Me section Start -->
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-     		 <i class="fi fi-rr-circle-envelope" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
-     		 <span style="font-size:30px">didtn1233@gmail.com</span>
-     		 	<br>
-     		 <i class="fi fi-rr-circle-phone" style="font-size: 40px;"></i>&nbsp;&nbsp;&nbsp;
-     		 <span style="font-size:30px">010-9783-3446</span>
-          	<br>
-          <a href="https://github.com/softcoding03"><img alt="" src="images/github.png" height=90></a>
-          	<br>
-          <a href="https://softpattern.tistory.com"><img alt="" src="images/tistory.png" height=50></a>
-        </div>
-      </div>
-    </section>
-
 
     <script src="script.js"></script>
   </body>

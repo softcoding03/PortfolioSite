@@ -105,11 +105,15 @@
             <img src="images/myprofile.jpg" alt="" />
           </div>
           <div class="right">
-            <div class="topic">상상한 것을 현실로 구현해내는 웹 개발자가 되고싶습니다.</div>
-            <p>
-              비즈니스모델 경진대회에 참가하거나 ~~ 하였을 때 항상 제 아이디어를 가지고 기획하는 단계에서 끝나는 것이 아쉬웠습니다.<br>
-              제가 가진 아이디어를 직접 개발해보고자하는 욕구를 가지게 되었고<br>
-              현재는 웹 개발자가 되기 위하여 열심히 배우고 익히며 정진하고 있습니다.
+            <div class="topic" style="text-align: center; color: #6e93f7">
+              <strong style="font-size: 40px;">상상한 것을 현실로</strong> 구현해내는
+              <strong style="font-size: 45px;">웹 개발자</strong>
+            </div><br>
+            <p style="text-align: center; font-size: 20px">
+              비즈니스모델 경진대회나 공모전에 참가 하였을 때 <br>
+              항상 제 아이디어를 가지고 기획하는 단계에서 끝나는 것이 아쉬웠습니다.<br>
+              제가 가진 아이디어를 직접 개발해보고자 하는 욕구를 가지게 되었고, 개발자를 꿈꾸게 되었습니다.<br>
+              현재는 웹 백엔드 개발자가 되기 위하여 열심히 배우고 익히고 있습니다.
             </p>
           </div>
         </div>
@@ -123,19 +127,15 @@
         <div class="title"><span>My Skills</span></div>
         <div class="skills-details">
           <div class="text">
-            <div class="topic">Skills Reflects Our Knowledge</div>
-            <p>
-            	개인 미니프로젝트 '쇼핑몰', '포트폴리오사이트'와 팀프로젝트 '야구 서비스 통합사이트'를 구현하며 익힌 기술들입니다. <br>
-            	Spring, JavaScript, MVC모델 등의 기술과 표준을 기반으로 개발하였습니다. <br>
-            	많은 기술을 적용시키진 못했지만, 새로운 기술의 갈증을 항상 가지고 끊임 없이 배우고자 하는 자세로 성장하겠습니다. 
+            <div class="topic" style="text-align: center; color: #6e93f7">
+              <strong style="font-size: 35px;">얕게 다양한 것</strong> 을 배우기보다,
+              <strong style="font-size: 45px;">하나를 제대로</strong>
+            </div><br>
+            <p style="text-align: center; font-size: 20px;">
+            	개인프로젝트 '쇼핑몰사이트'와 팀프로젝트 '야구서비스 통합사이트'를 구현하며 익힌 기술들입니다. <br>
+            	Spring과 Java를 이용하여 MVC모델을 표준 기반으로 개발하였습니다. <br>
+            	새로운 기술의 갈증을 가지고 항상 끊임 없이 배우고자 하는 자세로 성장합니다.
             </p>
-            <div class="experience">
-              <div class="num">안녕</div>
-              <div class="exp">
-                Years Of <br />
-                Experience
-              </div>
-            </div>
           </div>
           <div class="boxes">
             <div class="box">
@@ -193,6 +193,7 @@
 	            	커뮤니티 게시판, 티켓 구매 관리 등을 맡아 구현하였습니다.
 	            </p>
 	          </a>
+	          </a>
           </div>
         </div>
         <div class="boxes">  
@@ -201,21 +202,12 @@
 	            <div class="topic">굿즈 쇼핑몰</div>
 	            <img alt="" src="images/shop1.png">
 	            <p>
-	            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위한 쇼핑몰 사이트입니다. <br>
+	            	개인 미니프로젝트이며, Web MVC모델 패턴을 익히기 위해 진행한 기초적인 쇼핑몰 사이트입니다. <br>
 	            	회원가입, 상품 조회 및 결제 등이 가능합니다.
 	            </p>
 	          </a>  
           </div>
         </div>  
-        <div class="boxes">  
-          <div class="box">
-            <div class="topic">포트폴리오 사이트</div>
-            <p>
-            	현재 보고 계시는 제 포트폴리오 사이트입니다.<br>
-            	정적인 사이트지만, 클라우드 서버의 구축과 배포를 익힐 수 있었습니다. 
-            </p>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -236,7 +228,6 @@
         </div>
       </div>
     </section>
-
 
     <script src="script.js"></script>
   </body>
